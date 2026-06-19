@@ -1,0 +1,127 @@
+# Matchday Masters 26 - Data Formats
+
+## Player Data Structure
+
+{
+  "playerId": "UUID",
+  "playerName": "string",
+  "position": "ST|CB|LB|RB|CM|CAM|CDM",
+  "stats": {
+    "pace": 1-99,
+    "shooting": 1-99,
+    "passing": 1-99,
+    "dribbling": 1-99,
+    "defense": 1-99,
+    "physical": 1-99
+  },
+  "appearance": {
+    "skinTone": "string",
+    "hairStyle": "string",
+    "shirtNumber": 1-99
+  },
+  "contract": {
+    "teamId": "UUID",
+    "salary": number,
+    "expiryDate": "date"
+  },
+  "career": {
+    "level": number,
+    "xp": number,
+    "matches": number,
+    "goals": number,
+    "assists": number
+  }
+}
+
+## Team Data Structure
+
+{
+  "teamId": "UUID",
+  "teamName": "string",
+  "league": "string",
+  "country": "string",
+  "formation": "4-3-3",
+  "roster": ["playerId", ...],
+  "stadium": {
+    "stadiumId": "UUID",
+    "name": "string",
+    "capacity": number,
+    "location": "string"
+  },
+  "financials": {
+    "budget": number,
+    "balance": number
+  },
+  "stats": {
+    "wins": number,
+    "losses": number,
+    "draws": number,
+    "position": number
+  }
+}
+
+## Match Data Structure
+
+{
+  "matchId": "UUID",
+  "timestamp": "datetime",
+  "homeTeam": "teamId",
+  "awayTeam": "teamId",
+  "homeScore": number,
+  "awayScore": number,
+  "duration": number,
+  "events": [
+    {
+      "type": "GOAL|FOUL|INJURY|SUBSTITUTION",
+      "minute": number,
+      "playerId": "UUID",
+      "description": "string"
+    }
+  ],
+  "playerStats": {
+    "playerId": {
+      "rating": 1-10,
+      "passes": number,
+      "tackles": number,
+      "shots": number
+    }
+  }
+}
+
+## Career Save Structure
+
+{
+  "careerId": "UUID",
+  "mode": "PLAYER|MANAGER",
+  "currentSeason": number,
+  "currentTeam": "teamId",
+  "playerStats": {...},
+  "teamStats": {...},
+  "milestones": [
+    {
+      "type": "PROMOTION|CHAMPIONSHIP|RECORD",
+      "date": "date",
+      "description": "string"
+    }
+  ],
+  "lastSave": "datetime"
+}
+
+## Config Format
+
+{
+  "game": {
+    "version": "1.0.0",
+    "matchLength": 90,
+    "seasonLength": 38
+  },
+  "difficulty": {
+    "aiLevel": 1-10,
+    "injuryRate": 0-1,
+    "formVariation": 0-1
+  },
+  "multiplayer": {
+    "maxLatency": 50,
+    "tickRate": 60
+  }
+}

@@ -1,0 +1,66 @@
+# Matchday Masters 26 - System Architecture
+
+## Core Game Systems
+
+### 1. Player System
+- PlayerData: Core player attributes
+- PlayerStats: Performance metrics (pace, shooting, passing, etc)
+- PlayerProgression: XP, level, skill growth
+- CustomPlayer: Player creation engine
+
+### 2. Team System
+- TeamData: Team info, squad roster
+- Formations: Formation presets (4-3-3, 4-2-4, etc)
+- Tactics: In-match tactics (aggressive, defensive, balanced)
+- Squad: Team roster management
+
+### 3. Match System
+- MatchEngine: Core game loop
+- Physics: Ball physics, player movement
+- AI: AI opponent behavior
+- Events: Match events (goals, fouls, injuries)
+
+### 4. Career System
+- PlayerCareer: Individual player progression
+- ManagerCareer: Manager/team progression
+- Progression: Seasonal progression
+- Objectives: Career objectives & milestones
+
+### 5. Multiplayer System
+- NetworkManager: Connection handling
+- Matchmaking: Player matching
+- Leaderboards: Rank tracking
+- Synchronization: Game state sync
+
+### 6. UI System
+- MenuController: Main menu navigation
+- HUD: In-match HUD
+- Career UI: Career mode interface
+- Customization UI: Player/team creation
+
+### 7. Data Management
+- DataManager: Persistent data
+- ConfigManager: Game configuration
+- LocalDatabase: Offline data
+- CloudDatabase: Online progression
+
+## Class Hierarchy
+
+GameManager (Singleton)
+├── PlayerManager
+├── TeamManager
+├── MatchManager
+├── CareerManager
+├── MultiplayerManager
+└── UIManager
+
+## Data Flow
+
+MenuScene -> PlayerCreation -> TeamSelection -> Match -> CareerUpdate -> LeaderboardUpdate
+
+## Dependencies
+
+- Unity 2022 LTS+
+- Netcode for GameObjects (multiplayer)
+- PlayFab SDK (cloud)
+- TextMesh Pro (UI)

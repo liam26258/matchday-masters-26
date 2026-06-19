@@ -1,0 +1,95 @@
+# Matchday Masters 26 - Gameplay Systems
+
+## Match Engine
+
+### Real-Time Match Flow
+1. Pre-Match: Team selection, formation setup
+2. Kickoff: Match starts
+3. Live Play: Real-time player control + AI
+4. Events: Goals, fouls, injuries, substitutions
+5. Post-Match: Results, stat tracking
+
+### Player Control
+- **Action Mode**: Direct control of player movement/shooting
+- **Management Mode**: Tactical adjustments, formation changes
+- **Switch Anytime**: Seamless mode switching
+
+## Career Modes
+
+### Player Career
+1. Create custom player (appearance, stats, position)
+2. Start in lower leagues
+3. Progress through seasons
+4. Improve stats through play
+5. Transfer to better teams
+6. Reach global stardom
+
+### Manager Career
+1. Select or create team
+2. Manage squad, tactics, training
+3. Buy/sell players in transfer market
+4. Lead team through seasons
+5. Win trophies and achievements
+6. Build legacy
+
+## Team Management
+
+### Squad System
+- 11 starting XI
+- 7 substitutes
+- Player contracts
+- Squad cohesion
+
+### Formations
+- 4-3-3, 4-2-4, 3-5-2, 5-3-2, etc
+- Tactical variants
+- In-match adjustment
+
+### Player Development
+- XP from matches
+- Training sessions
+- Stat growth
+- Injury recovery
+- Form fluctuation
+
+## Progression Systems
+
+### Seasonal Structure
+- 38-match season (typical league)
+- Cup competitions
+- International breaks
+- Off-season
+
+### Reward Systems
+- Match rewards (coins, XP)
+- Achievement bonuses
+- Leaderboard prizes
+- Seasonal rewards
+
+## Multiplayer Modes
+
+### Online Multiplayer
+- 1v1 matches
+- Ranked seasons
+- Friendly matches
+- Squad battles
+
+### Offline
+- Classic match
+- Tournament
+- Career progression
+- Training
+
+## Statistics & Tracking
+
+### Player Stats
+- Pace, Shooting, Passing, Dribbling, Defense, Physical
+- Match performance data
+- Career records
+- Achievements
+
+### Team Stats
+- Win rate, goals, assists
+- Squad value
+- League position
+- Historical records

@@ -1,0 +1,30 @@
+{
+  "teams": [
+    {
+      "teamId": "team_001",
+      "teamName": "Global United",
+      "league": "World League",
+      "country": "Global",
+      "formation": "4-3-3",
+      "stadium": {
+        "stadiumId": "stadium_001",
+        "name": "Global Arena",
+        "capacity": 75000,
+        "location": "Worldwide"
+      }
+    },
+    {
+      "teamId": "team_002",
+      "teamName": "Champions Elite",
+      "league": "World League",
+      "country": "Global",
+      "formation": "4-2-4",
+      "stadium": {
+        "stadiumId": "stadium_002",
+        "name": "Champions Stadium",
+        "capacity": 80000,
+        "location": "Worldwide"
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+# Matchday Masters 26 ⚽
+
+A cross-platform hybrid football/soccer game built with Unity featuring real team names & leagues, custom player creation, immersive career modes, and online multiplayer.
+
+## 🎮 Features
+
+### Core Gameplay
+- **Hybrid System**: Switch between management (team tactics, formations) and action (direct player control)
+- **Match Engine**: Real-time physics-based football simulation
+- **Stadium System**: Stylized global stadiums with dynamic environments
+
+### Career Modes
+- **Player Career Mode**: Create a custom player, rise from lower leagues to stardom
+- **Manager Career Mode**: Build a dynasty, scout players, manage finances & tactics
+- **Real Team Names & Leagues**: Global club system with authentic leagues
+
+### Team Management
+- Squad building and customization
+- Formations and tactical adjustments
+- Player development and training
+- Transfer market system
+- Contract management
+
+### Multiplayer
+- **Online Multiplayer**: Real-time competitive matches (cross-platform)
+- **Offline Classic Match**: Quick friendlies, tournaments
+- **Leaderboards & Rankings**: Global competitive system
+- **Friendly & Ranked Modes**
+
+## 🛠️ Tech Stack
+
+- **Engine**: Unity 2022 LTS+
+- **Platforms**: iOS, Android, PC (Windows/Mac), Web (WebGL)
+- **Backend**: PlayFab / Firebase
+- **Database**: JSON/SQLite
+- **Networking**: Netcode for GameObjects
+
+## 📁 Project Structure
+
+Assets/
+├── Scripts/
+├── Scenes/
+├── Prefabs/
+├── Art/
+├── Data/
+├── Audio/
+└── Resources/
+
+## 🚀 Quick Start
+
+1. Clone the repository
+2. Open in Unity 2022 LTS+
+3. Open Scenes/MainMenu.unity
+4. Press Play
+
+## 📊 Development Roadmap
+
+### Phase 1: Foundation
+- Project setup
+- Core game systems
+- Main Menu UI
+- Basic match engine
+
+### Phase 2: Career Mode
+- Player creation
+- Career progression
+- Manager Career
+
+### Phase 3: Team Management
+- Squad management
+- Tactics editor
+- Transfer market
+
+### Phase 4: Multiplayer
+- Network setup
+- Matchmaking
+- Leaderboards
+
+### Phase 5: Polish
+- Optimization
+- Cross-platform testing
+- Release
+
+---
+Made with ⚽ for football fans worldwide
